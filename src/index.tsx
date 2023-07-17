@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Header } from './Header'
+import Header from './Header'
 
 const Content = () => {
     return (
@@ -23,9 +23,9 @@ const Content = () => {
 const App = () => {
     return (
         <React.Fragment>
-            <Header />
+            <Header title="React" year={2024} />
             <Content />
-            <Header />
+            <Header title="TS" year={2020} />
         </React.Fragment>
     )
 }
