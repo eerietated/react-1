@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Header } from './Header'
 
-const Header = () => {
-    return <h1>Hello React</h1>
-}
 const Content = () => {
     return (
         <>
@@ -27,6 +25,7 @@ const App = () => {
         <React.Fragment>
             <Header />
             <Content />
+            <Header />
         </React.Fragment>
     )
 }
